@@ -1,0 +1,15 @@
+    <div class="todo-app my-5 h-auto">
+        <h1>To-Do App!</h1>
+        <p class="fw-bold fs-4">TodoForm</p>
+
+        <div class="input-section">
+            <app-to-do (addTodo)="addTodo($event)"></app-to-do>
+        </div>
+        
+        <div class="list-section">
+            <app-todo-list  
+            [todos]="todos"
+          (deleteTodo)="deleteTodo($event)" >
+            </app-todo-list>
+        </div>
+        </div>

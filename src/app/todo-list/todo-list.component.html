@@ -1,0 +1,16 @@
+
+      <div class="todo-list">
+
+
+    @for( todo of todos; track $index;  let i = $index){
+  <div class="todo-item">
+        <span>{{ todo }}</span>
+      <button (click)="onDelete(i)">Delete</button>
+
+      </div>
+    }
+      @if (todos.length ===0){
+        <p >No tasks yet. Add one above!</p>
+
+      }
+    </div>

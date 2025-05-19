@@ -1,0 +1,21 @@
+        <div class="input d-flex mb-3">
+          <input
+            [(ngModel)]="newTodo"          
+            type="text"
+            class="form-control w-100"        
+            placeholder="Add a new task..."
+            (keyup.enter)="onSubmit()">
+            <button (click)="onSubmit()" class="btn btn-outline-light  mx-1"
+            style="color: white; right: 0;" type="button">Add</button>
+            </div>
+        <!-- <div class="input d-flex mb-3">
+          <input
+        #todoInput
+          type="text" 
+          placeholder="Add a new task..."
+          (keyup.enter)="onSubmit()"
+            class="form-control w-100"        
+          >
+            <button (click)="onSubmit()" class="btn btn-outline-light  mx-1"
+            style="color: white; right: 0;" type="button">Add</button>
+            </div> -->

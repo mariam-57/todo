@@ -1,0 +1,17 @@
+ .todo-app {
+      margin:  auto;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: #2086bc;
+    }
+    h1 {
+      text-align: right;
+      color: #ffffff;
+      font-weight: 600;
+    }
+    .input-section {
+      margin-bottom: 20px;
+    }
+    .list-section {
+      margin-top: 20px;
+    }
